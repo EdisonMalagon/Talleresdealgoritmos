@@ -3,6 +3,6 @@ Algoritmo ejercicio_8
 	Leer dato
 	Horas<-trunc(dato/60)
 	Minutos<-dato mod 60
-	Escribir Horas
-	Escribir Minutos
+	Escribir "Horas: " Horas
+	Escribir "Minutos: " Minutos
 FinAlgoritmo
