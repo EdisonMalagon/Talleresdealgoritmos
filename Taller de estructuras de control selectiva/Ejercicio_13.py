@@ -24,29 +24,29 @@ else:
 
 #Signo zodiacal
 Signo=""
-if(dia_n>=22 and mes_n>=11 or dia_n>=21 and mes_n>=12):
+if (mes_n==11 and (dia_n>=23 and dia_n<= 30)) or (mes_n== 12 and dia_n<= 21):
   Signo="sagitario"
-if(dia_n>=22 or mes_n>=12 or dia_n<=20 and mes_n<=1):
+if(mes_n== 12 and (dia_n>= 22 and dia_n<= 31)) or (mes_n==1 and dia_n<= 20):
   Signo="capricornio"
-if(dia_n>=21 and mes_n>=1 or dia_n<=19 and mes_n<=2):
+if(mes_n== 1 and (dia_n>= 21 and dia_n<= 31)) or (mes_n==2 and dia_n<= 19):
   Signo="acuario"
-if(dia_n>=20 and mes_n>=2 or dia_n<=19 and mes_n<=3):
+if(mes_n == 2 and (dia_n >= 20 and dia_n <= 29)) or (mes_n==3 and dia_n<= 20):
   Signo="piscis"
-if(dia_n>=21 and mes_n>=3 or dia_n<=20 and mes_n<=4):
+if(mes_n == 3 and (dia_n >= 21 and dia <= 31)) or (mes_n==4 and dia_n<=20):
   Signo="aries"
-if(dia_n>=21 and mes_n>=4 or dia_n<=21 and mes_n<=5):
+if(mes_n == 4 and (dia_n >= 21 and dia_n <= 30)) or (mes_n==5 and dia_n <= 20):
   Signo="tauro"
-if(dia_n>=22 and mes_n>=5 or dia_n<=21 and mes_n<=6):
+if(mes_n == 5 and (dia_n >= 22 and dia_n <= 31)) or (mes_n == 6 and dia_n <= 21):
   Signo="geminis"
-if(dia_n>=22 and mes_n>=6 or dia_n<=22 and mes_n<=7):
+if(mes_n == 6 and (dia_n >= 22 and dia_n <= 30)) or (mes_n == 7 and dia_n <= 22):
   Signo="cancer"
-if(dia_n>=23 and mes_n>=7 or dia_n<=23 and mes_n<=8):
+if(mes_n == 7 and (dia_n >= 23 and dia_n <= 31)) or (mes_n == 8 and dia_n <= 22):
   Signo="leo"
-if(dia_n>=24 and mes_n>=8 or dia_n<=22 and mes_n<=9):
+if (mes_n == 8 and (dia_n >= 23 and dia_n <= 31)) or (mes_n == 9 and dia_n <= 22):
   Signo="virgo"
-if(dia_n>=23 and mes_n>=9 or dia_n<=23 and mes_n<=10):
+if(mes_n == 9 and ( dia_n >= 23 and dia_n <= 30)) or (mes_n == 10 and dia_n <= 22):
   Signo="libra"
-if(dia_n>=23 and mes_n>=10 or dia_n<=21 and mes_n<=11):
+if (mes_n == 10 and (dia_n >= 23 and dia_n <= 31)) or (mes_n == 11 and dia_n <= 22):
   Signo="escorpion"
 #salida
 print(edad)

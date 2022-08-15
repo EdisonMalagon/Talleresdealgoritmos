@@ -1,4 +1,4 @@
-Nc=str(input("Escriba el nombre del cliente: "))
+Nc=(input("Escriba el nombre del cliente: "))
 Cr=int(input("Digite el valor de la compra: $"))
 if(Cr<50000):
     print("No es posible hacer descuento")
